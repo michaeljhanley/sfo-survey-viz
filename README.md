@@ -21,6 +21,7 @@ This project delivers:
 ## Features
 - **Data Analysis**: Exploratory analysis of transportation trends, preferences, and traveler behaviors.
 - **Excel Visualizations**: Static visualizations styled to reflect professional consulting deliverables, presenting year-over-year trends, income-level comparisons, and differences between business and non-business travelers.
+- **Recommendations**: TBD
 
 ## Data Source
 The dataset includes individual, anonymized survey responses related to customer experience at SFO. Specific data details can be found at https://data.sfgov.org/Transportation/2016-SFO-Customer-Survey/t3vr-buhp/about_data (2016) and https://data.sfgov.org/Transportation/2017-SFO-Customer-Survey/nnh5-5rwz/about_data (2017)
