@@ -13,6 +13,13 @@ This project delivers:
 - **Analysis**: A comprehensive exploration of transportation patterns at SFO, including year-over-year trends and traveler segment behavior.
 - **Visualizations**: Excel-based visualizations for a consulting presentation to clearly communicate findings and insights.
 
+## Final Visualizations
+<p float="left">
+   <img src="reports/visualizations/slopegraph.png" width="330" alt="Graph 1" />
+   <img src="reports/visualizations/stacked_horiz_bar_chart.png" width="330" alt="Graph 2" />
+   <img src="reports/visualizations/clustered_vert_bar_chart.png" width="330" alt="Graph 3" />
+</p>
+
 ### Key Findings
 - Rideshare app usage has increased year over year among all travelers at SFO.
 - Higher-income travelers are more likely to use rideshare apps to reach the airport.
