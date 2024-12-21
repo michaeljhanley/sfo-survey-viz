@@ -15,9 +15,9 @@ This project delivers:
 
 ## Final Visualizations
 <p float="left">
-   <img src="reports/visualizations/slopegraph.png" width="330" alt="Graph 1" />
-   <img src="reports/visualizations/stacked_horiz_bar_chart.png" width="330" alt="Graph 2" />
-   <img src="reports/visualizations/clustered_vert_bar_chart.png" width="330" alt="Graph 3" />
+   <img src="reports/visualizations/slopegraph.png" width="298" alt="Graph 1" />
+   <img src="reports/visualizations/stacked_horiz_bar_chart.png" width="298" alt="Graph 2" />
+   <img src="reports/visualizations/clustered_vert_bar_chart.png" width="298" alt="Graph 3" />
 </p>
 
 ### Key Findings
