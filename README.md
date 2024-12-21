@@ -1,4 +1,4 @@
-# SFO Transportation Data Visualization
+# SFO Transportation Data Visualization [WIP]
 
 This project addresses a key business problem for San Francisco International Airport (SFO): understanding and optimizing transportation patterns to enhance traveler satisfaction. By analyzing transportation data, the project identifies trends and highlights differences between traveler segments.
 
