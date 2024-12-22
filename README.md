@@ -15,7 +15,7 @@ This project delivers:
 - **Recommendations**: [WIP]
 
 ## Final Visualizations
-<img src="reports/visualizations/viz_combined_v2.png" />
+<img src="viz_combined_v2.png" />
      
 ### Key Findings
 - Rideshare app usage has increased year over year among all travelers at SFO.
