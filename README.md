@@ -3,7 +3,7 @@
 This project addresses a key business problem for San Francisco International Airport (SFO): understanding and optimizing transportation patterns to enhance traveler satisfaction. By analyzing transportation data, the project identifies trends and highlights behavioral differences between traveler segments.
 
 ## Business Problem
-SFO seeks to adapt to changing transportation preferences and traveler behavior. Key challenges include:
+In this scenario, SFO seeks to adapt to changing transportation preferences and traveler behavior. Key challenges include:
 - Increasing reliance on rideshare services year over year.
 - Understanding how transportation preferences differ across income levels and traveler types (business vs. non-business).
 - Balancing improvements to rideshare services with support for other transportation options to serve all traveler segments effectively.
@@ -25,17 +25,17 @@ This project delivers:
 ## Features
 - **Data Analysis**: Exploratory analysis of transportation trends, preferences, and traveler behaviors.
 - **Excel Visualizations**: Static visualizations styled to reflect professional consulting deliverables, presenting year-over-year trends, income-level comparisons, and differences between business and non-business travelers.
-- **Recommendations** [WIP]
+- [WIP] **Recommendations**
 
 ## Data Source
 - The dataset includes individual, anonymized survey responses related to customer experience at SFO. Specific data details can be found at https://data.sfgov.org/Transportation/2016-SFO-Customer-Survey/t3vr-buhp/about_data (2016) and https://data.sfgov.org/Transportation/2017-SFO-Customer-Survey/nnh5-5rwz/about_data (2017)
-- The latest versions of the Excel workbooks used in this project can be downloaded using the OneDrive links below:
+- [WIP] The latest versions of the Excel workbooks used in this project can be downloaded using the OneDrive links below:
     - Cleaning, pivoting, and statistical tests: ___
     - In-workbook graphs: ___
 
 ## Project Files
-- `/reports/visualizations/`: Includes PNG files with charts and graphs styled after consulting presentations, including the combined version shown above.
-- `/docs/`: Descriptions of the methods, analysis, and recommendations. [WIP]
+- `/visualizations/`: Includes PNG files with charts and graphs styled after consulting presentations, including the combined version shown above.
+- [WIP] `/docs/`: Descriptions of the methods, analysis, and recommendations.
 
 ## How to Use
 1. (Optional) Download the datasets linked in the Data Source section to view the project's starting point.
@@ -44,7 +44,7 @@ This project delivers:
    ```bash
    git clone https://github.com/michaeljhanley/sfo-transportation-viz.git
    ```
-4. Navigate to the `/reports/visualizations/` folder to view standalone versions of the final visualizations.
+4. Navigate to the `/visualizations/` folder to view standalone versions of the final visualizations.
 5. Refer to `/docs/` for insights and context.
 
 ## Future Work
