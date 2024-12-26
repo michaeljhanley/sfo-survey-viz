@@ -28,10 +28,8 @@ This project delivers:
 - [WIP] **Recommendations**
 
 ## Data Source
-- The dataset includes individual, anonymized survey responses related to customer experience at SFO. Specific data details can be found at https://data.sfgov.org/Transportation/2016-SFO-Customer-Survey/t3vr-buhp/about_data (2016) and https://data.sfgov.org/Transportation/2017-SFO-Customer-Survey/nnh5-5rwz/about_data (2017)
-- [WIP] The latest versions of the Excel workbooks used in this project can be downloaded using the OneDrive links below:
-    - Cleaning, pivoting, and statistical tests: ___
-    - In-workbook graphs: ___
+- The dataset includes individual, anonymized survey responses related to customer experience at SFO. Specific data details can be found by clicking [here](https://data.sfgov.org/Transportation/2016-SFO-Customer-Survey/t3vr-buhp/about_data) for 2016, and [here](https://data.sfgov.org/Transportation/2017-SFO-Customer-Survey/nnh5-5rwz/about_data) for 2017.
+- The latest versions of the Excel workbooks used in this project can be viewed using the OneDrive link [here](https://1drv.ms/f/c/854e97c8f38cec29/Ev5r09aNAkpMqS3MXzqXLCQB9cOakI3zikrt1w5l1kZ5aA?e=1bGKHw).
 
 ## Project Files
 - `/visualizations/`: Includes PNG files with charts and graphs styled after consulting presentations, including the combined version shown above.
