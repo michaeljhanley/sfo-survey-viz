@@ -36,8 +36,8 @@ This project delivers:
 - [WIP] `/docs/`: Descriptions of the methods, analysis, and recommendations.
 
 ## How to Use
-1. (Optional) Download the datasets linked in the Data Source section to view the project's starting point.
-2. Navigate to the OneDrive Links to the Excel workbooks noted above. Open the files to explore the cleaned data, statistical tests, and in-workbook graphs.
+1. (Optional) Download the datasets linked in the Data Source section to view the raw CSV files.
+2. Navigate to the OneDrive links above, to explore the cleaned data, statistical tests, and in-workbook graphs.
 3. Clone this repository to your local machine:
    ```bash
    git clone https://github.com/michaeljhanley/sfo-transportation-viz.git
