@@ -3,10 +3,11 @@
 This project addresses a key business problem for San Francisco International Airport (SFO): understanding and optimizing transportation patterns to enhance traveler satisfaction. By analyzing transportation data, the project identifies trends and highlights behavioral differences between traveler segments.
 
 ## Business Problem
-In this scenario, SFO seeks to adapt to changing transportation preferences and traveler behavior. Key challenges include:
+In this scenario, SFO seeks guidance from an outside consulting firm about potential adaptations to changing transportation preferences and traveler behavior. The firm must analyze the survey responses, visualize the results in a presentation, and offer data-driven recommendations.
+
+Key challenges include:
 - Increasing reliance on rideshare services year over year.
-- Understanding how transportation preferences differ across income levels and traveler types (business vs. non-business).
-- Balancing improvements to rideshare services with support for other transportation options to serve all traveler segments effectively.
+- Understanding how transportation preferences differ across demographics.
 
 ## Final Visualizations
 <img src="visualizations/viz_combined_v2.png" />
