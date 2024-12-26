@@ -41,7 +41,7 @@ This project delivers:
    git clone https://github.com/michaeljhanley/sfo-transportation-viz.git
    ```
 4. Navigate to the `/visualizations/` folder to view standalone versions of the final visualizations.
-5. Refer to `/docs/` for insights and context.
+5. [WIP] Refer to `/docs/` for insights and context.
 
 ## Future Work
 - Additional analysis to refine insights.
