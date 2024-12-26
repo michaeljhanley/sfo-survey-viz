@@ -1,4 +1,4 @@
-# SFO Transportation Data Visualization [WIP]
+# SFO Transportation Data Visualization
 
 This project addresses a key business problem for San Francisco International Airport (SFO): understanding and optimizing transportation patterns to enhance traveler satisfaction. By analyzing transportation data, the project identifies trends and highlights behavioral differences between traveler segments.
 
@@ -8,24 +8,22 @@ In this scenario, SFO seeks to adapt to changing transportation preferences and 
 - Understanding how transportation preferences differ across income levels and traveler types (business vs. non-business).
 - Balancing improvements to rideshare services with support for other transportation options to serve all traveler segments effectively.
 
-## Proposed Solution
-This project delivers:
-- **Analysis**: A comprehensive exploration of transportation patterns at SFO, including year-over-year trends and traveler segment behavior.
-- **Visualizations**: Excel-based visualizations for a consulting presentation to clearly communicate findings and insights.
-- **Recommendations**: [WIP]
-
 ## Final Visualizations
 <img src="visualizations/viz_combined_v2.png" />
-     
+
 ### Key Findings
 - Rideshare app usage has increased year over year among all travelers at SFO.
 - Higher-income travelers are more likely to use rideshare apps to reach the airport.
 - Business travelers rely more heavily on rideshare options compared to non-business travelers.
 
-## Features
-- **Data Analysis**: Exploratory analysis of transportation trends, preferences, and traveler behaviors.
-- **Excel Visualizations**: Static visualizations styled to reflect professional consulting deliverables, presenting year-over-year trends, income-level comparisons, and differences between business and non-business travelers.
-- [WIP] **Recommendations**
+## Proposed Solution
+This project delivers:
+- **Analysis**: A comprehensive exploration of transportation patterns at SFO, including year-over-year trends and traveler segment behavior.
+- **Visualizations**: Excel-based static visualizations styled to reflect professional consulting deliverables. These present year-over-year trends, income-level comparisons, and differences between business and non-business travelers.
+- **Recommendations**:
+     - Enhance rideshare partnerships
+     - Target marketing campaigns
+     - Support other transportation options
 
 ## Data Source
 - The dataset includes individual, anonymized survey responses related to customer experience at SFO. Specific data details can be found by clicking [here](https://data.sfgov.org/Transportation/2016-SFO-Customer-Survey/t3vr-buhp/about_data) for 2016, and [here](https://data.sfgov.org/Transportation/2017-SFO-Customer-Survey/nnh5-5rwz/about_data) for 2017.
@@ -33,7 +31,7 @@ This project delivers:
 
 ## Project Files
 - `/visualizations/`: Includes PNG files with charts and graphs styled after consulting presentations, including the combined version shown above.
-- [WIP] `/docs/`: Descriptions of the methods, analysis, and recommendations.
+- [WIP] `/docs/`: Descriptions of the methods, analysis, and detailed recommendations.
 
 ## How to Use
 1. (Optional) Download the datasets linked in the Data Source section to view the raw CSV files.
