@@ -6,8 +6,10 @@ This project addresses a key business problem for San Francisco International Ai
 In this scenario, SFO seeks guidance from an outside consulting firm about potential adaptations to changing transportation preferences and traveler behavior. The firm must analyze the survey responses, visualize the results in a presentation, and offer data-driven recommendations.
 
 Key challenges include:
-- Increasing reliance on rideshare services year over year.
-- Understanding how transportation preferences differ across demographics.
+- Data completeness and consistency
+- Effective traveler segmentation
+- Dataset is large, multifaceted, and coded
+- Statistical methods used must take into account test assumptions, response weights, and differing sample sizes year-over year.
 
 ## Final Visualizations
 <img src="visualizations/viz_combined_v2.png" />
@@ -22,9 +24,14 @@ This project delivers:
 - **Analysis**: A comprehensive exploration of transportation patterns at SFO, including year-over-year trends and traveler segment behavior.
 - **Visualizations**: Excel-based static visualizations styled to reflect professional consulting deliverables. These present year-over-year trends, income-level comparisons, and differences between business and non-business travelers.
 - **Recommendations**:
-     - Enhance rideshare partnerships
-     - Target marketing campaigns
-     - Support other transportation options
+     - Investigate factors driving increased reliance on rideshares
+         - Identify the pain points that rideshares are addressing and explore whether any of these issues can be alleviated through alternative transportation methods.
+     - Evaluate the impact of business vs. non-business travel on transportation decisions
+         - Look deeper into how travel purpose influences transportation choices, and consider potential service adjustments for each group.
+     - Explore opportunities for targeted marketing or informational campaigns
+         - Use demographic data to identify statistically significant segments and tailor campaigns or materials that address their specific transportation needs.
+     - Analyze rideshare use in relation to time-of-day and day-of-week data
+         - Compare rideshare usage trends with existing data on travel times to identify patterns or anticipate potential demand spikes.
 
 ## Data Source
 - The dataset includes individual, anonymized survey responses related to customer experience at SFO. Specific data details can be found by clicking [here](https://data.sfgov.org/Transportation/2016-SFO-Customer-Survey/t3vr-buhp/about_data) for 2016, and [here](https://data.sfgov.org/Transportation/2017-SFO-Customer-Survey/nnh5-5rwz/about_data) for 2017.
@@ -45,9 +52,10 @@ This project delivers:
 5. [WIP] Refer to `/docs/` for insights and context.
 
 ## Future Work
-- Additional analysis to refine insights.
-- Exploring the impact of alternative transportation options (public transit, taxis, etc.).
-- Using advanced tools for dynamic and interactive visualizations.
+- Gather and analyze qualitative transportation survey data
+- Consider adding questions related to geographical origin
+- Use machine learning to forecast demand
+- Add cost data (exact or categorized)
 
 ## License
 TBD
