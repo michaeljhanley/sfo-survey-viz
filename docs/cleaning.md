@@ -16,11 +16,11 @@ This document outlines the data cleaning and preprocessing steps performed in Ex
 
 ## Dataset Information
 
-Original Data Source: [Describe the origin of your data]
-Time Period Covered: [Specify the time range of your data]
-Initial File Format: [Format of the raw data]
-Initial Row Count: [Number of rows in raw data]
-Initial Column Count: [Number of columns in raw data]
+- Original Data Source: DataSF ([2016](https://data.sfgov.org/Transportation/2016-SFO-Customer-Survey/t3vr-buhp/about_data), [2017](https://data.sfgov.org/Transportation/2017-SFO-Customer-Survey/nnh5-5rwz/about_data))  
+- Time Period Covered: 2016 and 2017  
+- Initial File Format: .csv  
+- Initial Row Count: 3,087 (2016), 2,831 (2017)  
+- Initial Column Count: 97 (2016 and 2017)  
 
 ## Preprocessing Steps
 
