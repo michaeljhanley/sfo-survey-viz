@@ -25,7 +25,7 @@ To ensure statistical validity for chi-square testing, categories with low respo
 - Minimum threshold: 5 or more responses required in both expected and observed frequency tables
 - Categories below this threshold were combined into an "other" category
 - This consolidation ensures the chi-square test assumptions are met and results are statistically valid
-** Categories included in the analysis-level "Other" variable **:
+**Categories included in the analysis-level "Other" variable**:
    - Company rented bus/cruise ship bus/other group arrangements
    - SamTrans bus/or 'bus' (carrier unspecified)
    - Limo/town car
@@ -56,14 +56,30 @@ Chi-square tests of independence were performed on each pivot table to test the 
 - It's appropriate for categorical data
 - It can determine if there are significant relationships between categorical variables
 - It works well with the frequency data in our pivot tables
+While Excel does provide tools for chi-square tests (see "Results" section), the input requires manual calculation of expected counts. I did so by filling a new table using simple multiplication and division formulas with cell references.
 
 ## Results
-[Insert chi-square test results for each analysis, including:]
-- Chi-square statistic
-- Degrees of freedom
-- P-value
-- Effect size
-- Interpretation of findings
+As noted above, tests were conducted using Excel's CHISQ.TEST function. This takes a range of observed counts and a range of expected counts as its arguments. It abstracts caclulations of chi-square statistic and degrees of freedom
+Year-Over-Year Comparison (2016-2017)
+- Chi-square statistic: χ²(8) = 76.01 
+- P-value: p < 0.001
+- Effect size: V = 0.13
+- Sample size (weighted): n = 4,563
+- **Interpretation of findings**: The chi-square test revealed a significant change in rideshare usage between 2016 and 2017, with a small effect size (V = 0.13). This indicates that while the increase in rideshare usage was statistically significant, the magnitude of the change was relatively modest.
+
+Income Bracket Analysis
+- Chi-square statistic: χ²(24) = 93.8
+- P-value: p < 0.001
+- Effect size: V = 0.13
+- Sample size (weighted): n = 1,752
+- **Interpretation of findings**: Analysis showed a significant relationship between income brackets and rideshare usage, with a small effect size (V = 0.13). This suggests that while income level does influence rideshare usage, the strength of this relationship is relatively modest.
+
+Business vs. Non-Business Travel Analysis
+- Chi-square statistic: χ²(8) = 23.94
+- P-value: p = 0.002
+- Effect size: V = 0.11
+- Sample size (weighted): n = 2,121
+- **Interpretation of findings**: The relationship between trip purpose and rideshare usage was significant, with a small effect size (V = 0.11). This indicates that while business travel status does influence rideshare usage, the magnitude of this effect is relatively small.
 
 ## Conclusions
 [Insert conclusions drawn from the statistical analysis]
