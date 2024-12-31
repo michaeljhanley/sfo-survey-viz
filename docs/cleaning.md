@@ -14,6 +14,11 @@
 
 This document outlines the data cleaning and preprocessing steps performed in Excel before analysis. It includes the rationale behind each decision, challenges encountered, and potential future improvements.
 
+I chose to execute the entire project in Excel for the following reasons:
+- Excel is widely available, well-document, and relatively easy for stakeholders with a limited programming background to understand and use.
+- Excel skills continue to be in high demand among employers looking for data workers.
+- The program does have some built-in statistical analysis functionality, but some parts need to be done manually. This challenges the user to understand some of the more minute calculations than some other tools that abstract more of the statistical calculations.
+
 ## Dataset Information
 
 - Original Data Source: DataSF ([2016](https://data.sfgov.org/Transportation/2016-SFO-Customer-Survey/t3vr-buhp/about_data), [2017](https://data.sfgov.org/Transportation/2017-SFO-Customer-Survey/nnh5-5rwz/about_data))  
@@ -59,63 +64,44 @@ This document outlines the data cleaning and preprocessing steps performed in Ex
         - I found no erroneous entries.
     - Note: 'RESPNUM' doesn't need to be checked in detail this case, because the expected range is directly related to the number of rows in the dataset. This is because we haven't had to delete any rows this far. This can be verified with a simple visual check.
 
-### [Step Name]
-- **Action Taken**:
-- **Rationale**:
+### Decoding
+- **Action Taken**: Decoded responses from integers to their corresponding string data
+- **Rationale**: The datasets are small enough that Excel will be able to process these easily. Having human-readable categories makes pivoting and charting easier later.
 - **Implementation Details**:
+    - Made lookup tables for and Q3GETTO1 and Q21INCOME
+    - Used XLOOKUP function to automatically replace those columns with the appropriate string data
 
-## Data Quality Checks
-
-### Consistency Checks Performed:
-[List specific checks]
-[Results and actions taken]
-
-### Validation Methods:
-[Describe validation approaches]
-[Results and implications]
+### Feature Engineering
+- **Action Taken**: Added 'is_business' column to 2017's data.
+- **Rationale**: Decodes data into useful categories for analysis/pivoting without the need for an extensive lookup table, since we're only interested in two categories.
+- **Implementation Details**:
+    - Used IF function to convert Q22FLY data into 'Business' or 'Other'
+    - Replaced the original column's values with these calculations.
 
 ## Final Dataset Characteristics
 
-Final Row Count: [Number]
-Final Column Count: [Number]
-Missing Data Summary: [Overview of any remaining missing data]
-Known Limitations: [Document any known issues or limitations]
+- Final Row Count: 3,087 (2016), 2,831 (2017)
+- Final Column Count: 3 (2016), 5 (2017)
+- Missing Data Summary: N/A
+- Known Limitations:
+    - Respondents were allowed to select more than one transportation mode and travel reason. The ones that did constituted a fraction of a percent of the overall data. For the purposes of this exercise, I chose to omit the extra data so as not to over- or undervalue responses. If I had more information about the survey's methodology, I would be open to making a different decision on that depending on how the data was collected.
 
 ## Challenges and Solutions
 
 ### Major Challenges
-[Challenge Description]
-Impact:
-Solution implemented:
-Effectiveness:
-
-[Challenge Description]
-Impact:
-Solution implemented:
-Effectiveness:
+Duplicate Rows
+Impact: Excel's built-in functionality for deleting duplicate rows is straightforward, but identifying duplicate rows is limited to workarounds, even in powerful tools like Power Query. This is important, because knowing what you're working with is important before you decide how to handle duplicate rows.
+Solution implemented: No duplicates were found this time. If there were any, I'd add the dataset(s) to Power Query and use grouping to identify duplicates.
+Effectiveness: N/A
 
 ## Future Improvements
 
 ### What I Would Do Differently
-[Alternative Approach]
-Why this would be better:
-How it would improve the process:
-Resources needed:
-
-### Additional Steps for Next Time
-[New Step or Process]
-Purpose:
-Expected benefit:
-Implementation approach:
-
-### Process Expansion Ideas
-[Additional data quality checks to implement]
-[New validation steps to consider]
-[Automation opportunities]
-[Additional documentation needs identified]
+Document as I go along
+Why this would be better: Python and R have notebook workflows available for iterative problem-solving and inline explanation step by step. Excel has no such feature, so documenting an in-progress project requires some extra initiative.
+How it would improve the process: This would ensure the project is completed along with its documentation. Summarizing the work done in the moment could also inspire some critical thinking about alternative solutions to cleaning problems.
+Resources needed: Note-taking software
 
 ## Notes and Observations
 
-[Any additional insights gained during preprocessing]
-[Unexpected patterns or anomalies discovered]
-[Decisions that might affect analysis]
+None at this time.
