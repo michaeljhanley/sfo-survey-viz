@@ -13,7 +13,7 @@ Three pivot tables were created from the original survey dataset to examine spec
 Note that the statistical tests were conducted on data after weights were applied. This is why response counts pivoted into decimals as opposed to integers. I accomplished this by making pivot tables with values that summed the WEIGHT values per category instead of counting the number of RESPNUMs per category.
    - WEIGHT values were provided by the original dataset
 
-### Removing "connecting flight" and "Carshare" response data
+### Removing "Connecting flight" and "Carshare" response data
 On the original survey, respondents were able to choose "Connecting from another flight" as their method of arriving at SFO. I chose to not consider these responses because this type of arrival doesn't have any direct bearing on the other arrival methods. In addition, travelers arriving at SFO using this option generally don't get to choose other methods, as air travel implies that a majority of travelers arriving by connecting flight live too far to use other modes.\
 
 Additionally, "Carshare (Zipcar, etc.)" data was omitted from analysis because it was not provided as a response option on the 2017 survey. Due diligence was made to ensure all other response numbers lined up, with slight limitations (see "Limitations and Considerations")
@@ -93,7 +93,7 @@ Business vs. Non-Business Travel Analysis
 - The analysis assumes random sampling in the survey data.
 - Category consolidation may impact the granularity of insights.
 - Chi-square tests show relationship existence, but not direction or strength.
-- Differing survey wording
+- The types of transportation and their modes had exactly the same codes in the code list between years (see the "Removing" section above for exceptions), but their wording differed slightly. Refer to the surveys' codes of lists for further details.
 
 ## Future Analysis Recommendations
 - Contine to explore data on other types of demographics to find more statistically significant relationships.
