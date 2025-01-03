@@ -11,7 +11,7 @@ This document details the methodology of visualizing San Francisco International
 ## Visualizations
 
 ### Year-over-Year Rideshare Usage (Slopegraph)
-![](visualizations/slopegraph_v2.png?raw=true)
+<img src="visualizations/slopegraph_v2.png" />
 
 **Design Choices:**
 - I chose a slopegraph for the following reasons:
