@@ -59,7 +59,8 @@ Chi-square tests of independence were performed on each pivot table to test the 
 While Excel does provide tools for chi-square tests (see "Results" section), the input requires manual calculation of expected counts. I did so by filling a new table using simple multiplication and division formulas with cell references.
 
 ## Results
-As noted above, tests were conducted using Excel's CHISQ.TEST function. This takes a range of observed counts and a range of expected counts as its arguments. It abstracts caclulations of chi-square statistic and degrees of freedom
+As noted above, tests were conducted using Excel's CHISQ.TEST function. This takes a range of observed counts and a range of expected counts as its arguments. It abstracts caclulations of chi-square statistic and degrees of freedom.
+
 Year-Over-Year Comparison (2016-2017)
 - Chi-square statistic: χ²(8) = 76.01 
 - P-value: p < 0.001
@@ -82,13 +83,17 @@ Business vs. Non-Business Travel Analysis
 - **Interpretation of findings**: The relationship between trip purpose and rideshare usage was significant, with a small effect size (V = 0.11). This indicates that while business travel status does influence rideshare usage, the magnitude of this effect is relatively small.
 
 ## Conclusions
-[Insert conclusions drawn from the statistical analysis]
+- Strong statistical significance across the board means these differences are unlikely to be caused by random chance.
+- Effect size of the year-over-year comparison was V = 0.13, indicating a relatively weak effect. Despite being statistically significant, the magnitude of the effect is low.
+- Effect size of the demographic analyses ranged from V = 0.11 to V = 0.13. This tells us that, while statistically significant given the low p-value, income and travel reason aren't strong determinants of rideshare usage.
+- A consistently weak effect size across three analyses suggests that rideshare use could be influenced by several factors with individually weak effect sizes that add up.
+   - Further analysis on other data points would be required to test this theory.
 
 ## Limitations and Considerations
-- The analysis assumes random sampling in the survey data
-- Category consolidation may impact the granularity of insights
-- Chi-square tests show relationship existence but not direction or strength
+- The analysis assumes random sampling in the survey data.
+- Category consolidation may impact the granularity of insights.
+- Chi-square tests show relationship existence, but not direction or strength.
 - Differing survey wording
 
 ## Future Analysis Recommendations
-[Insert recommendations for future analysis or data collection]
+- Contine to explore data on other types of demographics to find more statistically significant relationships.
