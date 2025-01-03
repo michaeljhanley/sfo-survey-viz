@@ -48,7 +48,7 @@ This document details the methodology of visualizing San Francisco International
 [Document the main insights from this visualization]
 
 ## Key Insights
-<img src="https://raw.githubusercontent.com/michaeljhanley/sfo-survey-viz/refs/heads/main/visualizations/viz_combined_v2.png" width="300" />
+<img src="https://raw.githubusercontent.com/michaeljhanley/sfo-survey-viz/refs/heads/main/visualizations/viz_combined_v2.png" />
 [Summary of the most important findings across all three analyses:]
 - Main takeaways about rideshare adoption trends
 - Notable patterns in demographic usage
