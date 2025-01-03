@@ -11,7 +11,7 @@ This document details the methodology of visualizing San Francisco International
 ## Visualizations
 
 ### Year-over-Year Rideshare Usage (Slopegraph)
-<img src="https://raw.githubusercontent.com/michaeljhanley/sfo-survey-viz/refs/heads/main/visualizations/slopegraph_v2.png" width="297" />
+<img src="https://raw.githubusercontent.com/michaeljhanley/sfo-survey-viz/refs/heads/main/visualizations/slopegraph_v2.png" width="300" />
 
 **Design Choices:**
 - I chose a slopegraph for the following reasons:
@@ -26,7 +26,7 @@ This document details the methodology of visualizing San Francisco International
 - Rideshare usage has increased between 2016 and 2017, becoming the number one transportation method for reaching SFO.
 
 ### Income Level Analysis (Stacked 100% Bar Chart)
-[Insert your horizontal stacked bar chart]
+<img src="https://raw.githubusercontent.com/michaeljhanley/sfo-survey-viz/refs/heads/main/visualizations/horiz_stacked_v2.png" width="300" />
 
 **Design Choices:**
 - Rationale for using a 100% stacked bar chart
@@ -37,7 +37,7 @@ This document details the methodology of visualizing San Francisco International
 [Document the main insights from this visualization]
 
 ### Travel Purpose Analysis (Clustered Bar Chart)
-[Insert clustered bar chart]
+<img src="https://raw.githubusercontent.com/michaeljhanley/sfo-survey-viz/refs/heads/main/visualizations/vert_clustered_v2.png" width="300" />
 
 **Design Choices:**
 - Why a clustered bar chart was chosen
@@ -48,6 +48,7 @@ This document details the methodology of visualizing San Francisco International
 [Document the main insights from this visualization]
 
 ## Key Insights
+<img src="https://raw.githubusercontent.com/michaeljhanley/sfo-survey-viz/refs/heads/main/visualizations/viz_combined_v2.png" width="300" />
 [Summary of the most important findings across all three analyses:]
 - Main takeaways about rideshare adoption trends
 - Notable patterns in demographic usage
