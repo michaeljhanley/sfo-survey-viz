@@ -10,7 +10,7 @@ Important terms:
 - Traditional options: Conventional transportation including taxis, shuttles, and personal vehicles
 
 ## Executive Summary
-Based on SFO customer survey data from 2016-2017, we've identified significant changes in how passengers access the airport. The analysis reveals a clear shift toward rideshare services, especially among business and higher-income travelers. This change suggests a fundamental transformation in airport transportation preferences that requires strategic adaptation in services and infrastructure.
+Based on SFO customer survey data from 2016-2017, I've identified significant changes in how passengers access the airport. The analysis reveals a clear shift toward rideshare services, especially among business and higher-income travelers. This change suggests a fundamental transformation in airport transportation preferences that requires strategic adaptation in services and infrastructure.
 
 ## Key Findings and Visualizations
 
@@ -36,30 +36,40 @@ Based on SFO customer survey data from 2016-2017, we've identified significant c
 - Distinct preferences between business and personal travel
 
 ## Analysis Summary
-Our visualizations reveal three key trends:
+My visualizations reveal three key trends:
 - Rideshare has emerged as the dominant transportation mode
 - Business travelers and high-income passengers show strong rideshare preference
 - Traditional transportation services remain important for specific market segments
 
 ## Recommendations
 
-### Improve Customer Experience
-- Study why travelers choose rideshares over traditional options
-- Enhance traditional transportation services
-- Create improvements targeted to specific traveler groups
+### For Customer Experience Teams
+- Consider developing targeted surveys to understand the core appeals of rideshare services among business travelers
+- Review current transportation service standards against rideshare benchmarks
+- Evaluate opportunities to streamline the passenger pickup experience across all transportation modes
 
-### Enhance Business Travel Services
-- Develop specialized services for business travelers
-- Create strategic partnerships to improve the overall experience
-- Implement targeted service improvements
+### For Business Development
+- Consider corporate partnership programs that integrate with expense management systems
+- Explore opportunities to bundle transportation services with other business traveler amenities
+- Review potential for premium transportation services targeting high-income segments
 
-### Better Communication
-- Create targeted messages for different traveler groups
-- Improve information about available transportation options
-- Highlight the benefits of each transportation choice
+### For Marketing and Communications
+- Consider segment-specific communication strategies highlighting relevant transportation options
+- Review current signage and wayfinding for transportation services
+- Evaluate digital channels for pre-trip transportation planning
+
+### For Infrastructure Planning
+- Consider redesigning pickup/dropoff zones to better accommodate changing transportation preferences
+- Review current parking infrastructure utilization patterns
+- Evaluate potential terminal modifications to improve ground transportation flow
+
+### For Revenue Management
+- Consider dynamic pricing models for parking and transportation services
+- Review fee structures across different transportation options
+- Evaluate potential new revenue streams from emerging transportation patterns
 
 ## Looking Ahead
-We recommend expanding this analysis to include:
+I recommend expanding this analysis to include:
 - Feedback from travelers about their choices
 - Geographic patterns in transportation preferences
 - Cost comparison across different options
