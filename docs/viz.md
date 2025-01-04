@@ -29,42 +29,48 @@ This document details the methodology of visualizing San Francisco International
 <img src="https://raw.githubusercontent.com/michaeljhanley/sfo-survey-viz/refs/heads/main/visualizations/horiz_stacked_v2.png" width="450" />
 
 **Design Choices:**
-- Rationale for using a 100% stacked bar chart
-- How the visualization effectively shows income-based patterns
-- Design decisions that enhance readability
+- I chose to use a stacked bar chart for the following reasons:
+    - It quickly conveys the differences between the first and last categories
+    - 100% normalization makes for an intuitive comparison of normalized proportions as opposed to absolute value counts.
+    - Proportion sizes are easier to compare than other "part-of-whole" visualizations, like pie or donut charts
+- Key design decisions:
+    - The legend goes on the top-right in order to line up with the legend on the clustered bar chart
+    - The same dark teal color is used to direct the eye to the rideshare data right away
 
 **Key Findings:**
-[Document the main insights from this visualization]
+- Higher annual traveler income is associated with higher rates of rideshare app use
 
 ### Travel Purpose Analysis (Clustered Bar Chart)
 <img src="https://raw.githubusercontent.com/michaeljhanley/sfo-survey-viz/refs/heads/main/visualizations/vert_clustered_v2.png" width="450" />
 
 **Design Choices:**
-- Why a clustered bar chart was chosen
-- How the design facilitates comparison between business and non-business travelers
-- Key visual elements that highlight important patterns
+- I chose a clustered bar chart because:
+    - My intent was to highlight the difference between the the proportions of business and non-business travelers using rideshare apps.
+        - I only needed to highlight the difference between one instance of the pair of travel reasons - clustered bars excel at this.
+        - More travel reasons to compare would have required a different, less-crowded chart type.
+- Key design decisions:
+    - I chose to introduce the "steel green" and "dark pink" colors to differentiate business vs. non-business
+        - Continuing to use the dark teal on the bars as before could have been confusing.
+    - I chose to use the dark teal on the "Rideshare" axis label, as well as a faint gray rectangle, to highlight the data points of interest.
+    - One limitation of the clustered bar is that it's difficult to represent proportions while accounting for scale
+        - In other words, this visualization doesn't make it clear that non-business travelers significantly outnumber business travelers.
+        - I chose the bar chart because the difference in proportion was the main point I wanted viewers to walk away with.
+        - I experimented with stacked vertical bar charts of absolute counts, intending to give a sense of both scalem and proportion.
+            - When I tested it on friends and family, they found it confusing, even with annotations and data labels.
+            - In contrast, folks understood the message right away when I switched to a clustered bar.
 
 **Key Findings:**
-[Document the main insights from this visualization]
+- A higher proportion of business travelers use rideshare apps compared to non-business travelers.
 
 ## Key Insights
 <img src="https://raw.githubusercontent.com/michaeljhanley/sfo-survey-viz/refs/heads/main/visualizations/viz_combined_v2.png" />
-[Summary of the most important findings across all three analyses:]
-- Main takeaways about rideshare adoption trends
-- Notable patterns in demographic usage
-- Unexpected or interesting findings
+- Rideshare usage has increased between 2016 and 2017, becoming the number one transportation method for reaching SFO.
+- Business travelers and high-income travelers are more likely to use rideshare apps to reach SFO than their counterparts.
+- These findings are statistically significant, but note that the effect size is relatively weak (V = 0.11-0.13)
 
-## Limitations & Considerations
-- Data limitations or gaps
-- Potential biases in the analysis
-- Assumptions made during the analysis
+## Limitations & Considerations [WIP]
 
-## Future Improvements
-[Document potential enhancements or next steps:]
-- Additional analyses that could provide more insight
-- Alternative visualization approaches to consider
-- Data points that would strengthen the analysis
-- Technical improvements or automation possibilities
+## Future Improvements [WIP]
 
 ## Tools & Resources
 - Excel
