@@ -25,6 +25,9 @@ This document details the methodology of visualizing San Francisco International
 **Key Findings:**
 - Rideshare usage has increased between 2016 and 2017, becoming the number one transportation method for reaching SFO.
 
+**Research Question Addressed:**
+This visualization directly addresses Research Focus #3, demonstrating the year-over-year change in rideshare usage from 2016 to 2017. The slopegraph clearly shows rideshare's rise to become the primary transportation method.
+
 ### Income Level Analysis (Stacked 100% Bar Chart)
 <img src="https://raw.githubusercontent.com/michaeljhanley/sfo-survey-viz/refs/heads/main/visualizations/horiz_stacked_v2.png" width="450" />
 
@@ -39,6 +42,9 @@ This document details the methodology of visualizing San Francisco International
 
 **Key Findings:**
 - Higher annual traveler income is associated with higher rates of rideshare app use
+
+**Research Question Addressed:**
+This visualization addresses Research Focus #1, revealing a clear positive correlation between income levels and rideshare usage, with higher-income travelers showing greater adoption of rideshare services.
 
 ### Travel Purpose Analysis (Clustered Bar Chart)
 <img src="https://raw.githubusercontent.com/michaeljhanley/sfo-survey-viz/refs/heads/main/visualizations/vert_clustered_v2.png" width="450" />
@@ -62,15 +68,23 @@ This document details the methodology of visualizing San Francisco International
 **Key Findings:**
 - A higher proportion of business travelers use rideshare apps compared to non-business travelers.
 
+**Research Question Addressed:**
+This visualization addresses Research Focus #2, comparing rideshare usage between business and non-business travelers. The data shows higher rideshare adoption rates among business travelers compared to non-business travelers.
+
 ## Key Insights
 <img src="https://raw.githubusercontent.com/michaeljhanley/sfo-survey-viz/refs/heads/main/visualizations/viz_combined_v2.png" />
 - Rideshare usage has increased between 2016 and 2017, becoming the number one transportation method for reaching SFO.
 - Business travelers and high-income travelers are more likely to use rideshare apps to reach SFO than their counterparts.
 - These findings are statistically significant, but note that the effect size is relatively weak (V = 0.11-0.13)
 
-## Limitations & Considerations [WIP]
+## Limitations & Considerations
+- This analysis only covers 2016-2017. More years of data are needed to assess broader trends.
+- Income bracket segmentation/binning may obscure nuances worth investigating further.
+- Small effect sizes may mean that other factors are likely influencing rideshare adoption rates.
+- Variations in sample size from year to year necessitated use of proportions, which eschews information about absolute counts.
 
-## Future Improvements [WIP]
-
-## Tools & Resources
-- Excel
+## Future Improvements
+- Add more years of survey data to the analysis.
+- Add more airports to the analysis.
+- Conduct multivariate analysis and inlcude more demographic data in said analysis to uncover other yet-unknown effects on rideshare use.
+- Explore use of interactive visuals as a way to communicate more dimensions of data at a time.
