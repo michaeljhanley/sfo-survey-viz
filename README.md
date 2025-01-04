@@ -15,19 +15,19 @@ Based on SFO customer survey data from 2016-2017, we've identified significant c
 ## Key Findings and Visualizations
 
 ### Transportation Mode Changes (2016-2017)
-![Year-over-year rideshare usage slopegraph](/visualizations/slopegraph_v2.png)
+<img src="/visualizations/slopegraph_v2.png" width="40%">
 - Rideshare has become the most popular way to reach SFO
 - Traditional transportation maintains important market segments
 - Clear trend showing increased adoption of rideshare services
 
 ### Income Level Impact
-![Income level analysis stacked bar chart](/visualizations/horiz_stacked_v2.png)
+<img src="/visualizations/horiz_stacked_v2.png" width="40%">
 - Higher-income passengers are more likely to choose rideshare services
 - Clear correlation between income levels and transportation choices
 - Different income groups show varying preferences for traditional options
 
 ### Business vs. Leisure Travel Patterns
-![Travel purpose clustered bar chart](/visualizations/vert_clustered_v2.png)
+<img src="/visualizations/vert_clustered_v2.png" width="40%">
 - Business travelers particularly favor rideshare options
 - Leisure travelers use a wider variety of transportation options
 - Distinct preferences between business and personal travel
