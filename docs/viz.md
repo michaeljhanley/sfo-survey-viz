@@ -73,6 +73,7 @@ This visualization addresses Research Focus #2, comparing rideshare usage betwee
 
 ## Key Insights
 <img src="https://raw.githubusercontent.com/michaeljhanley/sfo-survey-viz/refs/heads/main/visualizations/viz_combined_v2.png" />
+
 - Rideshare usage has increased between 2016 and 2017, becoming the number one transportation method for reaching SFO.
 - Business travelers and high-income travelers are more likely to use rideshare apps to reach SFO than their counterparts.
 - These findings are statistically significant, but note that the effect size is relatively weak (V = 0.11-0.13)
